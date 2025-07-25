@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<nav>
+  <div class="navbar">
+    <h1>Portfolio</h1>
+    <div class="hamburger" onclick="toggleSidebar()">☰</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- Sidebar for mobile -->
+  <div class="sidebar" id="sidebar">
+    <span class="close-btn" onclick="toggleSidebar()">×</span>
+    <a href="#home" onclick="toggleSidebar()">Home</a>
+    <a href="#skills" onclick="toggleSidebar()">Skills</a>
+    <a href="#education" onclick="toggleSidebar()">Education</a>
+    <a href="#achievements" onclick="toggleSidebar()">Achievements</a>
+    <a href="#projects" onclick="toggleSidebar()">Projects</a>
+    <a href="#contact" onclick="toggleSidebar()">Contact</a>
+  </div>
+</nav>
+
+
+<section class="first" id="home">
+  <div class="container">
+    <div class="content">
+      <h2>👋 Hey! I’m <span>Aalok Saini</span></h2>
+      <p>
+        I'm a third-year B.Tech student majoring in Computer Science Engineering. I'm passionate about
+        <strong>Full-stack development</strong> and <strong>Java Developer</strong>. I love building real-world
+        projects
+        and constantly improving both my technical and soft skills. This portfolio showcases my journey, skills,
+        and the work I’ve created along the way.
+      </p>
+      <a href="#projects" class="btn-primary">View Projects</a>
+    </div>
+    <div class="profile-img">
+      <div class="img-bg"></div> <!-- background shape -->
+      <img src="Profile-photo.jpg" alt="Aalok Saini profile photo">
+    </div>
+  </div>
+</section>
+
+
+<!-- Skills Section -->
+<div class="box"></div>
+
+<section class="second" id="skills">
+  <h3 class="section-title">My Skills</h3>
+  <div class="skills-grid">
+    <div class="skills-card" style="--delay: 0s;">
+      <img src="https://img.icons8.com/color/96/html-5.png" alt="HTML & CSS" />
+      <h4>HTML & CSS</h4>
+      <p>Level - Advanced</p>
+    </div>
+    <div class="skills-card" style="--delay: 0.4s;">
+      <img src="https://img.icons8.com/?size=100&id=PndQWK6M1Hjo&format=png&color=000000" alt="Bootstrap" />
+      <h4>Bootstrap</h4>
+      <p>Level - Intermediate</p>
+    </div>
+    <div class="skills-card" style="--delay: 0.1s;">
+      <img src="https://img.icons8.com/color/96/javascript.png" alt="JavaScript" />
+      <h4>JavaScript</h4>
+      <p>Level - Intermediate</p>
+    </div>
+    <div class="skills-card" style="--delay: 0.2s;">
+      <img src="https://img.icons8.com/?size=100&id=40670&format=png&color=000000" alt="C" />
+      <h4>C</h4>
+      <p>Level - Intermediate</p>
+    </div>
+    <div class="skills-card" style="--delay: 0.3s;">
+      <img src="https://img.icons8.com/?size=100&id=13679&format=png&color=000000" alt="Java" />
+      <h4>Java</h4>
+      <p>Level - Intermediate</p>
+    </div>
+    <div class="skills-card" style="--delay: 0.5s;">
+      <img src="https://img.icons8.com/color/96/mysql-logo.png" alt="MySQL" />
+      <h4>MySQL</h4>
+      <p>Level - Beginner</p>
+    </div>
+    <div class="skills-card" style="--delay: 0.6s;">
+      <img src="https://img.icons8.com/?size=100&id=bosfpvRzNOG8&format=png&color=000000" alt="MongoDB" />
+      <h4>MongoDB</h4>
+      <p>Level - Beginner</p>
+    </div>
+    <div class="skills-card" style="--delay: 0.5s;">
+      <img src="https://img.icons8.com/?size=100&id=38804&format=png&color=000000" alt="salesforce" />
+      <h4>salesforce</h4>
+      <p>Level - Beginner</p>
+  </div>
+</section>
+<div class="box"></div>
+
+
+<!-- Education Section -->
+
+<section class="second fifth" id="education">
+  <h3 class="section-title">My Education</h3>
+  <div class="edu-grid">
+    <div class="edu-card" style="--delay: 0s;">
+      <h4>B.Tech in Computer Science</h4>
+      <p class="institute">Sobhasaria Group of Institutions</p>
+      <span class="duration">2022 – Present</span>
+      <p class="detail">CGPA - 7.11 (upto 5th sem)</p>
+      <p>Active in tech-fests, CSI workshops & hackathons. Passionate about real-time projects and teamwork.</p>
+    </div>
+
+    <div class="edu-card" style="--delay: 0.1s;">
+      <h4>Senior Secondary (12th)</h4>
+      <p class="institute">Adarsh Bal Vidhya Mandir Sr Sec School</p>
+      <span class="duration">2022</span>
+      <p class="detail">Percentage - 65%</p>
+      <p>Active in school programs. Passionate about learning new skills and activities.</p>
+    </div>
+
+    <div class="edu-card" style="--delay: 0.2s;">
+      <h4>Secondary Education (10th)</h4>
+      <p class="institute">Adarsh Bal Vidhya Mandir Sr Sec School</p>
+      <span class="duration">2020</span>
+      <p class="detail">Percentage - 70.67%</p>
+      <p>Active in school programs. Enthusiastic learner with consistent academic performance.</p>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Achievements Section -->
+<section class="third" id="achievements">
+  <h3 class="section-title">My Achievements</h3>
+  <div class="card-grid">
+    <div class="card" style="--delay: 0s;">
+        <img src="certificates/codevenz.jpg" alt="Internship Certificate">
+      <h4>Internship</h4>
+      <p>Completed a 15-day internship focused on developing Telegram bots using Python. Gained hands-on experience with
+        the Telegram Bot API and user interaction handling.</p>
+    </div>
+    <div class="card" style="--delay: 0.1s;">
+      <img src="certificates/pedestal.jpg" alt="Workshop Certificate">
+      <h4>Workshop</h4>
+      <p>Attended a workshop on AI/ML integration in Full Stack Development. Learned to incorporate ML models into web
+        apps and build data-driven interfaces.</p>
+    </div>
+    <div class="card" style="--delay: 0.2s;">
+      <img src="certificates/zeetron.jpg" alt="MERN Internship">
+      <h4>Internship</h4>
+      <p>Completed a 45-day MERN stack internship, building full-stack apps with user auth, REST APIs, and responsive
+        design.</p>
+    </div>
+    <div class="card" style="--delay: 0.3s;">
+      <img src="certificates/hackathon.jpg" alt="Hackathon">
+      <h4>Mini Hackathon</h4>
+      <p>Participant in hackathon in college.</p>
+    </div>
+  </div>
+</section>
+
+<div class="box"></div>
+
+
+<!-- Projects Section -->
+<section class="third fourth" id="projects">
+  <h3 class="section-title">My Projects</h3>
+  <div class="card-grid">
+    <div class="card project" style="--delay: 0s;">
+      <video src="projects/Netflix-clone.mp4" muted autoplay loop></video>
+      <h4>Netflix Clone</h4>
+      <p>Built using HTML & CSS to replicate Netflix UI. Focused on grid layouts, responsiveness, and real homepage
+        feel.</p>
+    </div>
+    <div class="card project" style="--delay: 0.1s;">
+      <video src="projects/Trio's Events.mp4" muted autoplay loop></video>
+      <h4>Event Planner Web</h4>
+      <p>Developed MERN-based event web app with real-time updates, contact forms, and MongoDB-based data storage.</p>
+    </div>
+  </div>
+</section>
+
+<div class="box"></div>
+
+
+<!-- Contact Footer -->
+<footer id="contact">
+  <div class="footer-container">
+    <h3 class="footer-title">Contact Me</h3>
+    <p class="footer-text">Feel free to connect with me via social platforms or drop an email!</p>
+
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/aalok-saini-667a1b262?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" aria-label="LinkedIn">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/aaloksaini" target="_blank" aria-label="GitHub">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="mailto:sainiaalok14@gmail.com" target="_blank" aria-label="Email">
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+    </div>
+
+    <p class="footer-credit">© 2025 Aalok Saini • All rights reserved</p>
+  </div>
+</footer>
+
+
+
+<script>
+  function toggleSidebar() {
+    const sidebar = document.getElementById('sidebar');
+    sidebar.classList.toggle('active');
+  }
+
+</script>
+</body>
+
+</html>
+
